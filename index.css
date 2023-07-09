@@ -1,28 +1,28 @@
 body {
     background: rgb(67, 2, 30);
     display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    min-width: 100vw;   
+  /*  justify-content: center;
+    align-items: center;*/
+    min-height: 90vh;
+    min-width: 90vw;   
 }
 form {
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 250px;
-    height: 500px;
+    top: 100%;
+    left: 100%;
+    width: 2050px;
+    height: 5500px;
     
 
 }
 input {
     border: none;
+  
 }
 input,
 button {
-   padding: 10px;
-   width: -webkit-fill-available;
+   padding: 20px;
+   width: 500px;
 }
 button {
     margin-bottom: 10px;
@@ -37,10 +37,12 @@ label{
 }
 
 main{
-    width:50vw;
+    width:100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content:center;
    
 }
+
+
