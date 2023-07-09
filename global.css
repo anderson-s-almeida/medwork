@@ -16,7 +16,7 @@ button[disabled] {
 .solid {
     background: white;
     border: none;
-    color: rgb(45, 211, 111);
+    color: rgb(0, 0, 0);
 }
 .outline {
     background: transparent;
@@ -28,8 +28,4 @@ button[disabled] {
     background: red;
     color: white;
     display: none;
-<<<<<<< HEAD
-} 
-=======
-} 
->>>>>>> 583f18c756685516df45ab4cb7d13c847d37c45b
+}
