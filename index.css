@@ -8,8 +8,8 @@ body {
 }
 form {
     position: relative;
-    top: 100%;
-    left: 100%;
+    top: 80%;
+    left: 80%;
     width: 200px;
     height: 550px;
     
@@ -22,7 +22,7 @@ input {
 input,
 button {
    padding: 20px;
-   width: 300px;
+   width: 100px;
 }
 button {
     margin-bottom: 10px;
