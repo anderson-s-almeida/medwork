@@ -10,8 +10,8 @@ form {
     position: relative;
     top: 100%;
     left: 100%;
-    width: 2050px;
-    height: 5500px;
+    width: 200px;
+    height: 550px;
     
 
 }
@@ -22,7 +22,7 @@ input {
 input,
 button {
    padding: 20px;
-   width: 500px;
+   width: 300px;
 }
 button {
     margin-bottom: 10px;
@@ -44,5 +44,3 @@ main{
     justify-content:center;
    
 }
-
-
