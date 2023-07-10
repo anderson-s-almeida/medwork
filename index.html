@@ -4,6 +4,7 @@
 
 <head>
     <title>MedWork</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://anderson-s-almeida.github.io/medwork/index.css" rel="stylesheet" />
 <link href="https://anderson-s-almeida.github.io/medwork/global.css" rel="stylesheet" />
 <script src= "https://anderson-s-almeida.github.io/medwork/index.js"></script>
@@ -16,28 +17,29 @@
     
 <body>
     <main class="container">
+        <section id="login">
         <h1>MedWork</h1>
-        <div class="form-field">
-            <div><label>Email</label></div>
+           <div class="form-field">
+            <span class="material-icons">alternate_email</span>
             <input type="email" name="email" id="email" placeholder="seu@email.com" onchange="onChangeEmail()"/>
-            <div class="error" id="email-required-error">Email é obrigatório</div>
+            <div class="error" id="email-required-error">Email é obrigatório</di    v>
             <div class="error" id="email-invalid-error">Email é inválido</div>
         </div>
         <div class="form-field">
-            <div><label>Senha</label></div>
-            <input type="password" name="password" id="password" placeholder="Senha" onchange="onChangePassword()"/>
+            <span class="material-icons">vpn_key</span>
+            <input type="password" name="password" id="password" placeholder="sua senha" onchange="onChangePassword()"/>
             <div class="error" id="password-required-error">Senha é obrigatória</div>
         </div>
-        <div>
+        <div class="bt-button-recuperar">
             <button type="button" class="clear" id="recover-password-button" disabled="true">Recuperar senha</button>
         </div>
-        <div>
+        <div class="bt-button-entrar">
             <button type="button" class="solid" id="login-button" disabled="true" onclick="login()">Entrar</button>
         </div>
-        <div>
+        <div class="bt-button-registrar">
             <button type="button" class="outline" onclick="register()">Registrar</button>
         </div>
-    
+    </section>
 </main>
 </body>
 
