@@ -67,6 +67,7 @@ section#login{
     min-width: 700px;
     border-radius: 20px;
     padding: 24px 24px 36px;
+    width: 90%;
 }
 
 .bt-button-recuperar{ 
@@ -74,7 +75,8 @@ section#login{
   }
 
   .bt-button-entrar{ 
-    text-align: center 
+    text-align: center ;
+    padding: 10px;
   }
   .bt-button-registrar{  
     text-align: center 
@@ -90,6 +92,9 @@ section#login{
 .clear{
     font-size: 16px;
 }
+
+  
+  
 
   
   
