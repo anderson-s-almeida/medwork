@@ -1,4 +1,4 @@
-@media all and (max-width:320px){
+/*@media all and (max-width:320px){
   body{
       
     background:rgb(67, 2, 30);
@@ -6,16 +6,76 @@
 main{
       
   background:rgb(67, 2, 30);
-}
-}
-@media all and  (min-width:321px) and (max-width:768px){
-  body{
-      
-    background:rgb(67, 2, 30);
+}*/
+
+@media all and  (min-width:310px) and (max-width:669px){
+  html, body {
+    width: 100%;
+    max-width: 100vw;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+     
   }
-  main{      
-      background:rgb(67, 2, 30);
+  .container{
+    height:100%;
+    width: 90%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background: rgb(67, 2, 30);
+  }
+  .form-field {
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
 }
+input,
+button {
+   padding: 20px;
+   width: 160px; 
+   
 }
+h1{
+  font-size: 35px;
+  padding: 1px;
+  color:  rgb(255, 255, 255);
+  line-height:1px;
+  font-family: sans-serif;
+  font-style: oblique;
+  text-align: center;
+}
+
+.solid{
+    font-size: 15px;
+    color: rgb(2, 2, 2);    
+}
+
+.material-icons{
+  color: rgb(255, 252, 252);
+  font-size: 2em;     
+  transform: translateY(50%);
+  text-indent:-1em ;
   
+}
+.bt-button-recuperar{ 
+  text-align: center ;
+  color: rgb(2, 2, 2);
+  font-size: 15px;
+}
+
+.bt-button-registrar{ 
+  text-align: center ;
+  color: rgb(2, 2, 2);
+  font-size: 15px;
+}
+
+
+}
+
+
+
+   
+
+
 
