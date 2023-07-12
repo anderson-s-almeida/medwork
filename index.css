@@ -1,101 +1,21 @@
-body {
-    background: rgb(67, 2, 30);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 90vh;
-    min-width: 90vw;    
-    overflow: hidden;
-    padding: 24px 24px 36px;
-     
+@media all and (max-width:320px){
+  body{
+      
+    background:rgb(67, 2, 30);
 }
-form {
-    position: relative;
-    top: 80%;
-    left: 80%;
-    width: 200px;
-    height: 550px;  
-    text-align: center;
-}
-input {
-    border: none;
-    font-size: 15px;
-    font-family: sans-serif;
-    
-  }
-input,
-button {
-   padding: 15px;
-   width: 350px;
-   
-   
-}
-
-.form-field {
-    margin-bottom: 10px;
-    padding: 10px;
-    text-align: center;
-}
-label{
-    color: rgb(255, 255, 255);
-    
-}
-
 main{
-       position: relative;
-       height: 95vh;
-       width: 99vw;   
-       background: rgb(67, 2, 30);
+      
+  background:rgb(67, 2, 30);
 }
-
-h1{
-    font-size: 50px;
-    padding: 1px;
-    color: #fafafa;
-    line-height:1px;
-    font-family: sans-serif;
-    font-style: oblique;
-    text-align: center;
 }
-
-section#login{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color:rgb(255, 255, 255, 0.1);
-    min-width: 700px;
-    border-radius: 20px;
-    padding: 24px 24px 36px;
-    width: 90%;
-}
-
-.bt-button-recuperar{ 
-    text-align: center 
+@media all and  (min-width:321px) and (max-width:768px){
+  body{
+      
+    background:rgb(67, 2, 30);
   }
-
-  .bt-button-entrar{ 
-    text-align: center ;
-    padding: 10px;
-  }
-  .bt-button-registrar{  
-    text-align: center 
-  }  
-
-  .material-icons{
-    color: white;
-    font-size: 3em;     
-    transform: translateY(40%);
-    text-indent:-1em ;
-    
+  main{      
+      background:rgb(67, 2, 30);
 }
-.clear{
-    font-size: 16px;
 }
-
-  
-  
-
-  
   
 
